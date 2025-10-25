@@ -1,0 +1,136 @@
+.coffee-blend {
+  position: relative;
+  margin-top: 82px;
+  margin-bottom: 82px;
+}
+
+.img2 {
+  position: absolute;
+  bottom: -220px;
+  right:-10px;
+}
+
+.cofee-blend-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.cofee-blend-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.cofee-blend-info h3 {
+  width: 795px;
+  height: 72px;
+  font-family: Playfair Display;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 54px;
+  line-height: 100%;
+  color: #603809;
+  text-align: center;
+}
+
+.cofee-blend-info>p {
+  width: 980px;
+  height: 34px;
+  font-family: Playfair Display;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 20px;
+  line-height: 34px;
+  color: #707070;
+  text-align: center;
+}
+
+.cofee-blend-cards {
+  display: flex;
+  gap: 20px;
+}
+
+.cofee-blend-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 280px;
+  height: 364px;
+  border: 1px solid #F9C06A6B;
+  transition: all 0.5s ease;
+}
+
+.cofee-blend-card:hover {
+  box-shadow: 0 0 25px rgba(249, 192, 106, 0.4), inset 0 0 10px rgba(249, 192, 106, 0.2);
+  transform: scale(1.05);
+}
+
+.card-btn {
+  position: absolute;
+  padding: 14px 26px;
+  width: 134px;
+  height: 48px;
+  border-radius: 24px;
+  background: #F9C06A;
+  box-shadow: 0px 6px 12px 0px #F9C06A38;
+  bottom: -25px;
+  left: 26%;
+  transition: all 0.3s ease;
+}
+
+.card-btn:hover {
+  box-shadow: 0px 8px 12px 0px #F9C06A38;
+  transform: scale(1.2);
+}
+
+.card-btn a {
+  color: #1E1E1E;
+}
+
+.card-img {
+  margin-bottom: 14px;
+}
+
+.card-img img {
+  width: 280px;
+  height: 222px;
+}
+
+.card-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-bottom: 42px;
+  gap: 6px;
+}
+
+.cofe-nime {
+  font-family: Playfair Display;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 22px;
+  line-height: 100%;
+  color: #603809;
+}
+
+.card-info>p {
+  font-family: Playfair Display;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 16px;
+  line-height: 100%;
+  color: #1E1E1E;
+}
+
+.cofe-value {
+  font-family: Playfair Display;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 18px;
+  line-height: 100%;
+  color: #603809;
+}

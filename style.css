@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Playfair Display;
+}
+
+.cofee {
+  position: relative;
+}
+
+.img-top {
+  position:absolute;
+  right: -20px;
+}
+
+.img-bottom {
+  position:absolute;
+  bottom: -130px;
+}
+
+
+.container {
+  width: 980px;
+  margin: 0 auto;
+}
+
+.cofee-wrapper {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 45px;
+}
+
+.info h1 {
+  display: flex;
+  justify-content: center;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 54px;
+  line-height: 100%;
+  color: #603809;
+  padding-bottom: 16px;
+}
+
+.info p {
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 20px;
+  line-height: 34px;
+  text-align: center;
+  color: #707070;
+}
+
+.cofee-info {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 980px;
+  /* height: 524px; */
+  border-width: 1px;
+  background: #f9c06a2a;
+  border: 1px solid #F9C06A6B;
+}
+
+.cofee-info::before {
+  content: url(./icon/“.svg);
+  padding-left: 20px;
+  padding-top: 20px;
+
+}
+
+.cofe-btn {
+  position: absolute;
+  bottom: 40%;
+  right: -5%;
+  width: 82px;
+  height: 82px;
+  padding: 30px;
+  border-radius: 16px;
+  background: #F9C06A;
+  box-shadow: 0px 6px 12px 0px #F9C06A38;
+  z-index: 2;
+  transition: all 0.3s ease;
+}
+
+.cofe-btn2 {
+  position: absolute;
+  bottom: 40%;
+  left: -5%;
+  width: 82px;
+  height: 82px;
+  padding: 30px;
+  border-radius: 16px;
+  background: #F9C06A;
+  box-shadow: 0px 6px 12px 0px #F9C06A38;
+  transition: all 0.3s ease;
+}
+
+.cofe-btn:hover {
+  transform: scale(1.1);
+}
+
+.cofe-btn2:hover {
+  transform: scale(1.1);
+}
+
+.info-top-text {
+  padding-top: 129px;
+  font-weight: 400;
+  font-style: SemiBold;
+  font-size: 18px;
+  line-height: 36px;
+  text-align: center;
+  color: #707070;
+}
+
+.info-bottom {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px;
+  position: relative;
+  padding-bottom: 50px;
+}
+
+.project-name {
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 32px;
+  line-height: 100%;
+  align-items: center;
+  color: #603809;
+}
+
+.project-men {
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 20px;
+  line-height: 34px;
+  text-align: center;
+  color: #707070;
+}
+
+.project-men-img {
+  position: absolute;
+  bottom: -75%;
+}
