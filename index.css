@@ -1,8 +1,13 @@
+html {
+  scroll-behavior: smooth;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
 
 a {
   text-decoration: none;
@@ -207,4 +212,86 @@ h1:hover {
   font-size: 20px;
   line-height: 34px;
   color: #707070;
+}
+
+/* Footer Style  */
+footer {
+  position: relative;
+  background-color: #442808;
+  background-image: url("../img/fotter_image.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.img-left {
+  position: absolute;
+  top: -50%;
+}
+
+.img-right {
+  position: absolute;
+  top: -50%;
+  right: -1px;
+}
+
+.footer-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 66px;
+  padding: 162px 93px 0 93px;
+}
+
+.footer-logo h4 {
+  width: 207px;
+  height: 71px;
+  font-family: Clicker Script;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 54px;
+  line-height: 100%;
+  color: #FFFFFF;
+}
+
+.footer-logo p {
+  width: 380px;
+  font-family: Playfair Display;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 14px;
+  line-height: 22px;
+  color: #FFFFFF;
+}
+
+.footer-social {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.footer-info {
+  display: flex;
+  justify-content: center;
+  gap: 66px;
+}
+
+.footer-class {
+  width: 73px;
+  height: 35px;
+  font-family: Playfair Display;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 26px;
+  line-height: 100%;
+  color: #FFFFFF;
+}
+
+.footer-links li a {
+  font-family: Playfair Display;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 18px;
+  line-height: 42px;
+  color: #FFFFFF;
 }

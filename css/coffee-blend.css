@@ -264,11 +264,23 @@
 
 /* Amazing Morning Style  */
 .amazing-morning {
+  margin-bottom: 82px;
+  position: relative;
   background-image: url("../img/section-bck.png");
   background-repeat: no-repeat;
   background-size: cover;
   padding: 54px 0;
+  overflow: hidden;
+}
 
+.cofee-bean {
+  position: absolute;
+  right: -1px;
+  z-index: 1;
+}
+
+.mazing-morning-img {
+  z-index: 2;
 }
 
 .amazing-morning-wrapper {
@@ -306,5 +318,92 @@
   background: #F9C06A;
   color: #1E1E1E;
   box-shadow: 0px 6px 12px 0px #F9C06A38;
-
 }
+
+/* News Latter Section Style  */
+.newsletter-section {
+  margin-top: 138px;
+  height: 374px;
+  background-image: url("../img/section-bach2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.newsletter-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 80px 193px;
+}
+
+.newsletter-wrapper h3 {
+  width: 796px;
+  height: 72px;
+  font-family: Playfair Display;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 54px;
+  line-height: 100%;
+  color: #FFFFFF;
+}
+
+.newsletter-wrapper p {
+  font-family: Playfair Display;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 20px;
+  line-height: 34px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+form {
+  margin-top: 26px;
+}
+
+.subscribe-form {
+  width: 642px;
+  height: 66px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #FFF9F1;
+  border: 1px solid #F9C06A6B;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.subscribe-form input {
+  width: 90%;
+  border: none;
+  outline: none;
+  padding: 10px 15px;
+  font-family: Playfair Display;
+  font-weight: 400;
+  font-style: Regular;
+  font-size: 20px;
+  line-height: 34px;
+  color: #00000057;
+}
+
+.subscribe-form button {
+  width: 137px;
+  height: 66px;
+  border: none;
+  padding: 10px 20px;
+  font-family: Playfair Display;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 22px;
+  line-height: 100%;
+  color: #603809;
+  background: #F9C06A;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.subscribe-form button:hover {
+  background: #d89e3d;
+}
+
